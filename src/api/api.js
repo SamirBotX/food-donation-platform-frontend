@@ -1,8 +1,7 @@
-// src/api/api.js
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5962/api", // ✅ your new backend port
+  baseURL: "https://food-donation-platform-qlmd.onrender.com/api",
 });
 
 // automatically attach token if available
